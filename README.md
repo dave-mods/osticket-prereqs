@@ -102,3 +102,15 @@ Here we will doubble clcik PHP Manager, Register new PHP version, browse to C dr
 After that is finished clcik the osticket-vm on the left. Then on the right sride we will want to clcik the Restart button.
 ![image](https://github.com/user-attachments/assets/a62905d0-1590-4b4e-8581-0d2de5d4a7d8)
 
+Now we can jump back to our osTicket-Installation folder and unzip the osTicket folder. It will make a new unzipped folder at the top.
+![image](https://github.com/user-attachments/assets/ace7d65c-8dc4-49d8-b722-8db186a93e9c)
+
+Open a new file explorer go to the C drive open the inetpub folder then down to the wwwroot folder. Open the wwwroot folder. You will want to right click and copy the upload folder and then paste it into the wwwroot folder. We will now rename the upload folder to "osTicket".
+![image](https://github.com/user-attachments/assets/0bf7ec66-df91-4e7e-b8e6-ec63eabd36dc)
+
+Open IIS and Restart it.
+![image](https://github.com/user-attachments/assets/02b5c7c8-aa4f-4c77-9741-9440e09c68eb)
+
+On the left side expand, Sites, Default Web Site and then clcik osTicket. On the right side click browse and it will load osticket in the web browser.
+![image](https://github.com/user-attachments/assets/cda7a728-fb1d-4dda-804d-13096c646de8)
+
