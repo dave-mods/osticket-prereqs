@@ -83,6 +83,7 @@ Now install mysql. doubble clcik it and go through the install. When it asks set
 ![image](https://github.com/user-attachments/assets/5915f6b0-9f7c-4081-9396-e908960d73c4)
 
 For this box type in "root" for both. DO NOT MESS THIS PART UP. Then in the next box dont clcik any of the options just Finish.
+
 ![image](https://github.com/user-attachments/assets/02a7df1f-9001-4146-97e4-2d81194d818c)
 
 We can then go to Start and search IIS and right click and pick Run as Admin.
