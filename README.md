@@ -124,6 +124,7 @@ Next right clcik ost-config.php and select properties, Security and then Advance
 ![image](https://github.com/user-attachments/assets/1e963bae-493d-4d59-9f67-04c72051c147)
 
 Now we will clcik Add, Select a principal and they type "everyone" and hit check names and click OK then check the Full control box and then hit OK.
+
 ![image](https://github.com/user-attachments/assets/e0093ada-0a37-4575-9ce9-76d4bc4b1f8a)
 
 Go back to osTicket installer and continue. We will now fill out all the information needed. Under Admin User we will use "adminuser" for our user name and "Password1" for our password.
@@ -135,5 +136,16 @@ Before we continue we have to setup the data base using HeidiSQL. Go to the osTi
 inside HeidiSQL click New in the bottom left corner. Remember our password for here was "root" and clcik open.
 ![image](https://github.com/user-attachments/assets/cfb7ca5a-6884-48d9-866a-1f9a325e3f21)
 
-In HeidiSQL we need to make a data base. Right click unnamed go to new and select data base. for name we will enter "osTicket" and hit OK.
+In HeidiSQL we need to make a data base. Right click unnamed go to new and select data base. For the name we will enter "osTicket" and hit OK.
 ![image](https://github.com/user-attachments/assets/116341b7-a4f4-4e3d-8f86-c159a7c0159f)
+
+Back in osTicket installer in database settings we will put "osTicket" under MySQL Database and then username and password will be "root" and "Password1".
+![image](https://github.com/user-attachments/assets/5b1f8511-a3bb-4e4d-a506-4718a9cdb507)
+
+
+Congratulations!!! You have fully setup osTicket.
+![image](https://github.com/user-attachments/assets/2a0d73b1-853b-4c44-914d-47e67a3a19d6)
+
+
+
+In the next section I will show you how to setup agents, users and how to give them permissions and more.
