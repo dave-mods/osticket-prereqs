@@ -114,3 +114,26 @@ Open IIS and Restart it.
 On the left side expand, Sites, Default Web Site and then clcik osTicket. On the right side click browse and it will load osticket in the web browser.
 ![image](https://github.com/user-attachments/assets/cda7a728-fb1d-4dda-804d-13096c646de8)
 
+So to enable some settings go to the osTicket folder in IIS manager and open PHP manager. Under PHP Extensions click the Enable or disable an extension button. We will enable "php_imap, php_intl, php_opcache". Once done refresh the osticket webpage and examine changes.
+![image](https://github.com/user-attachments/assets/af99e592-9fe9-4fc2-8008-f0be1058e014)
+
+Now we need to go back into the C drive, inetpub, wwwroot, osTicket, include, then look for ost-sampleconfig.php and rename it to "ost-config.php".
+![image](https://github.com/user-attachments/assets/4d5b90fa-02ef-4254-9fed-17f628a9a825)
+
+Next right clcik ost-config.php and select properties, Security and then Advanced. Select disable inheritance and select Remove all.
+![image](https://github.com/user-attachments/assets/1e963bae-493d-4d59-9f67-04c72051c147)
+
+Now we will clcik Add, Select a principal and they type "everyone" and hit check names and click OK then check the Full control box and then hit OK.
+![image](https://github.com/user-attachments/assets/e0093ada-0a37-4575-9ce9-76d4bc4b1f8a)
+
+Go back to osTicket installer and continue. We will now fill out all the information needed. Under Admin User we will use "adminuser" for our user name and "Password1" for our password.
+![image](https://github.com/user-attachments/assets/cdc6808d-9d73-49ae-aee6-9d465f4cda51)
+
+Before we continue we have to setup the data base using HeidiSQL. Go to the osTicket install file on  your desktop open the file and go to HeidiSQL and intall it.
+![image](https://github.com/user-attachments/assets/21e4db4f-fe86-4cc1-9359-70b0e34c2544)
+
+inside HeidiSQL click New in the bottom left corner. Remember our password for here was "root" and clcik open.
+![image](https://github.com/user-attachments/assets/cfb7ca5a-6884-48d9-866a-1f9a325e3f21)
+
+In HeidiSQL we need to make a data base. Right click unnamed go to new and select data base. for name we will enter "osTicket" and hit OK.
+![image](https://github.com/user-attachments/assets/116341b7-a4f4-4e3d-8f86-c159a7c0159f)
