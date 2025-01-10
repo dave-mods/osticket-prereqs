@@ -14,7 +14,7 @@ Here in this tutorial I will show you prerequisites and installation of the open
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> (22H2)
 
 
 <h2>Installation Steps</h2>
