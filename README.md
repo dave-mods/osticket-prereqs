@@ -10,6 +10,7 @@ Here in this tutorial I will show you prerequisites and installation of the open
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- MySQL
 
 <h2>Operating Systems Used </h2>
 
